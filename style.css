@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #e8e5e5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.continer{
+    background-color: white;
+    height: 30rem;
+    width: 25rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .3);
+
+}
+
+.continer .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem 1rem;
+}
+.header .input_box{
+    background-color: #eee;
+    height: 3rem;
+    width: 81%;
+    border-radius: 2.6rem;
+
+
+}
+
+.header .input_box input{
+    font-size: 17px;
+    color: rgb(54, 52, 52);
+    width: 100%;
+    padding: .9rem .8rem;
+    background: none;
+}
+
+.header button{
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 2.4rem;
+    color: rgb(37, 35, 35);
+    font-size: 14px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.header button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.weather_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weather_body img{
+    width: 12rem;
+}
+
+.weather_body .weather_box{
+    text-align: center;
+    margin-block: 5px;
+}
+.weather_body .weather_box .temperature{
+    font-size: 2.3rem;
+    font-weight: 1000;
+}
+
+.weather_body .weather_box .description{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.weather_body .weather_details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.weather_details  .text span{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.weather_details .humidity,.wind{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.weather_details i{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
